@@ -1,0 +1,25 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Шохнома",
+      "author": "Фирдоуси",
+      "category": "Классическая литература",
+      "language": "tg",
+      "description": "Величайшая эпическая поэма таджикско-персидской литературы. История древних царей Ирана, героев и мифов. Книга мудрости, чести и мужества.",
+      "parts": [
+        "part1.pdf",
+        "part2.pdf",
+        "part3.pdf",
+        "part4.pdf",
+        "part5.pdf",
+        "part6.pdf",
+        "part7.pdf",
+        "part8.pdf",
+        "part9.pdf",
+        "part10.pdf"
+      ],
+      "total_parts": 10
+    }
+  ]
+}

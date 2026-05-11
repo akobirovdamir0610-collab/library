@@ -2,24 +2,43 @@
   "books": [
     {
       "id": 1,
-      "title": "Шохнома",
-      "author": "Фирдоуси",
-      "category": "Классическая литература",
+      "poet": "Абуалӣ ибни Сино",
+      "title": "Осори Абуалӣ Сино",
+      "author": "Абуалӣ ибни Сино",
+      "category": "Илмӣ ва фалсафӣ",
       "language": "tg",
-      "description": "Величайшая эпическая поэма таджикско-персидской литературы. История древних царей Ирана, героев и мифов. Книга мудрости, чести и мужества.",
+      "description": "Мероси бузурги ҳаким Абуалӣ Сино. Аз ҷумлаи асарҳои машҳури ӯ дар тиб, фалсафа ва илм.",
+      "parts": ["al_konun.pdf", "avji-zuhal.pdf", "piruznoma.pdf"],
+      "total_parts": 3
+    },
+    {
+      "id": 2,
+      "poet": "Абулқосим Лоҳутӣ",
+      "title": "Ахтарони адаб",
+      "author": "Абулқосим Лоҳутӣ",
+      "category": "Шеъри муосир",
+      "language": "tg",
+      "description": "Асарҳои шоир ва инқилобии Абулқосим Лоҳутӣ. Аз ҷумлаи беҳтарин шеърҳои ӯ.",
+      "parts": ["axtaroni_adab.pdf"],
+      "total_parts": 1
+    },
+    {
+      "id": 3,
+      "poet": "Абӯабдуллоҳи Рӯдакӣ",
+      "title": "Девони Рӯдакӣ",
+      "author": "Абӯабдуллоҳи Рӯдакӣ",
+      "category": "Классическая адабиёт",
+      "language": "tg",
+      "description": "Падари адабиёти тоҷик. Беҳтарин ғазалҳо, қасидаҳо ва рубоиҳои Рӯдакӣ.",
       "parts": [
-        "part1.pdf",
-        "part2.pdf",
-        "part3.pdf",
-        "part4.pdf",
-        "part5.pdf",
-        "part6.pdf",
-        "part7.pdf",
-        "part8.pdf",
-        "part9.pdf",
-        "part10.pdf"
+        "abuabdullohi-rudaki-—-sherho.pdf",
+        "ashor_rudaki.pdf",
+        "bui_jui_muliyon.pdf",
+        "devoni_rudaki.pdf",
+        "osori-abuabdullohi-rudaki.pdf",
+        "pandho-az-abuabdullohi-rudaki.pdf"
       ],
-      "total_parts": 10
+      "total_parts": 6
     }
   ]
 }

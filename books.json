@@ -2,6 +2,42 @@
   "poets": [
     {
       "id": 1,
+      "name": "Абуалӣ ибни Сино",
+      "books": [
+        {
+          "id": 101,
+          "title": "Ал-Қонун фил-тибб",
+          "filename": "al_konun.pdf",
+          "description": "Энсиклопедияи бузурги тиббӣ ва илмҳои табиӣ."
+        },
+        {
+          "id": 102,
+          "title": "Авҷи Зуҳал",
+          "filename": "avji-zuhal.pdf",
+          "description": "Асари фалсафӣ ва илмӣ."
+        },
+        {
+          "id": 103,
+          "title": "Пирӯзнама",
+          "filename": "piruznoma.pdf",
+          "description": "Аз осори ҳаким Абуалӣ Сино."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Абулқосим Лоҳутӣ",
+      "books": [
+        {
+          "id": 201,
+          "title": "Ахтарони адаб",
+          "filename": "axtaroni_adab.pdf",
+          "description": "Маҷмӯаи шеърҳои инқилобӣ ва адабии Лоҳутӣ."
+        }
+      ]
+    },
+    {
+      "id": 3,
       "name": "Абӯабдуллоҳи Рӯдакӣ",
       "books": [
         {
@@ -12,7 +48,7 @@
         },
         {
           "id": 302,
-          "title": "Осори Абӯабдуллоҳи Рӯдакӣ",
+          "title": "Осори Рӯдакӣ",
           "filename": "osori-abuabdullohi-rudaki.pdf",
           "description": "Маҷмӯаи осори Рӯдакӣ."
         },
@@ -38,43 +74,7 @@
           "id": 306,
           "title": "Шеърҳои Рӯдакӣ",
           "filename": "abuabdullohi-rudaki-—-sherho.pdf",
-          "description": "Маҷмӯаи шеърҳои Рӯдакӣ."
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Абуалӣ ибни Сино",
-      "books": [
-        {
-          "id": 101,
-          "title": "Ал-Қонун фил-тибб",
-          "filename": "al_konun.pdf",
-          "description": "Энсиклопедияи бузурги тиббӣ ва илмҳои табиӣ."
-        },
-        {
-          "id": 102,
-          "title": "Авҷи Зуҳал",
-          "filename": "avji-zuhal.pdf",
-          "description": "Асари фалсафӣ ва илмӣ."
-        },
-        {
-          "id": 103,
-          "title": "Пирӯзнама",
-          "filename": "piruznoma.pdf",
-          "description": "Аз осори ҳаким Абуалӣ Сино."
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Абулқосим Лоҳутӣ",
-      "books": [
-        {
-          "id": 201,
-          "title": "Ахтарони адаб",
-          "filename": "axtaroni_adab.pdf",
-          "description": "Маҷмӯаи шеърҳои инқилобӣ ва адабии Лоҳутӣ."
+          "description": "Маҷмӯаи шеърҳо."
         }
       ]
     },
@@ -82,66 +82,16 @@
       "id": 4,
       "name": "Абулқосим Фирдавсӣ",
       "books": [
-        {
-          "id": 401,
-          "title": "Шоҳнома (Қисми 1)",
-          "filename": "part1.pdf",
-          "description": "Қисми аввали достони бузурги миллии тоҷикон."
-        },
-        {
-          "id": 402,
-          "title": "Шоҳнома (Қисми 2)",
-          "filename": "part2.pdf",
-          "description": "Давоми Шоҳнома."
-        },
-        {
-          "id": 403,
-          "title": "Шоҳнома (Қисми 3)",
-          "filename": "part3.pdf",
-          "description": "Давоми Шоҳнома."
-        },
-        {
-          "id": 404,
-          "title": "Шоҳнома (Қисми 4)",
-          "filename": "part4.pdf",
-          "description": "Давоми Шоҳнома."
-        },
-        {
-          "id": 405,
-          "title": "Шоҳнома (Қисми 5)",
-          "filename": "part5.pdf",
-          "description": "Давоми Шоҳнома."
-        },
-        {
-          "id": 406,
-          "title": "Шоҳнома (Қисми 6)",
-          "filename": "part6.pdf",
-          "description": "Давоми Шоҳнома."
-        },
-        {
-          "id": 407,
-          "title": "Шоҳнома (Қисми 7)",
-          "filename": "part7.pdf",
-          "description": "Давоми Шоҳнома."
-        },
-        {
-          "id": 408,
-          "title": "Шоҳнома (Қисми 8)",
-          "filename": "part8.pdf",
-          "description": "Давоми Шоҳнома."
-        },
-        {
-          "id": 409,
-          "title": "Шоҳнома (Қисми 9)",
-          "filename": "part9.pdf",
-          "description": "Давоми Шоҳнома."
-        },
-        {
-          "id": 410,
-          "title": "Шоҳнома (Қисми 10)",
-          "filename": "part10.pdf",
-          "description": "Қисми охири Шоҳнома дар ин маҷмӯа."
-        }
+        { "id": 401, "title": "Шоҳнома - Ҷилди 1", "filename": "part1.pdf", "description": "Қисми аввали ҳамосаи бузурги Шоҳнома." },
+        { "id": 402, "title": "Шоҳнома - Ҷилди 2", "filename": "part2.pdf", "description": "Давоми саргузаштҳои паҳлавонони Эрон." },
+        { "id": 403, "title": "Шоҳнома - Ҷилди 3", "filename": "part3.pdf", "description": "Таърихи подшоҳони каёнӣ." },
+        { "id": 404, "title": "Шоҳнома - Ҷилди 4", "filename": "part4.pdf", "description": "Ҷилди чоруми осори безавол." },
+        { "id": 405, "title": "Шоҳнома - Ҷилди 5", "filename": "part5.pdf", "description": "Қисмати панҷуми достонҳо." },
+        { "id": 406, "title": "Шоҳнома - Ҷилди 6", "filename": "part6.pdf", "description": "Ҷилди шашуми Шоҳнома." },
+        { "id": 407, "title": "Шоҳнома - Ҷилди 7", "filename": "part7.pdf", "description": "Қисмати ҳафтуми ҳамоса." },
+        { "id": 408, "title": "Шоҳнома - Ҷилди 8", "filename": "part8.pdf", "description": "Ҷилди ҳаштуми асар." },
+        { "id": 409, "title": "Шоҳнома - Ҷилди 9", "filename": "part9.pdf", "description": "Қисмати нуҳуми достонҳои паҳлавонӣ." },
+        { "id": 410, "title": "Шоҳнома - Ҷилди 10", "filename": "part10.pdf", "description": "Ҷилди охирини ҳамосаи Фирдавсӣ." }
       ]
     }
   ]

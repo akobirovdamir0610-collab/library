@@ -1,44 +1,82 @@
 {
-  "books": [
+  "poets": [
     {
       "id": 1,
-      "poet": "Абуалӣ ибни Сино",
-      "title": "Осори Абуалӣ Сино",
-      "author": "Абуалӣ ибни Сино",
-      "category": "Илмӣ ва фалсафӣ",
-      "language": "tg",
-      "description": "Мероси бузурги ҳаким Абуалӣ Сино. Аз ҷумлаи асарҳои машҳури ӯ дар тиб, фалсафа ва илм.",
-      "parts": ["al_konun.pdf", "avji-zuhal.pdf", "piruznoma.pdf"],
-      "total_parts": 3
+      "name": "Абуалӣ ибни Сино",
+      "books": [
+        {
+          "id": 101,
+          "title": "Ал-Қонун фил-тибб",
+          "filename": "al_konun.pdf",
+          "description": "Энсиклопедияи бузурги тиббӣ ва илмҳои табиӣ."
+        },
+        {
+          "id": 102,
+          "title": "Авҷи Зуҳал",
+          "filename": "avji-zuhal.pdf",
+          "description": "Асари фалсафӣ ва илмӣ."
+        },
+        {
+          "id": 103,
+          "title": "Пирӯзнама",
+          "filename": "piruznoma.pdf",
+          "description": "Аз осори ҳаким Абуалӣ Сино."
+        }
+      ]
     },
     {
       "id": 2,
-      "poet": "Абулқосим Лоҳутӣ",
-      "title": "Ахтарони адаб",
-      "author": "Абулқосим Лоҳутӣ",
-      "category": "Шеъри муосир",
-      "language": "tg",
-      "description": "Асарҳои шоир ва инқилобии Абулқосим Лоҳутӣ. Аз ҷумлаи беҳтарин шеърҳои ӯ.",
-      "parts": ["axtaroni_adab.pdf"],
-      "total_parts": 1
+      "name": "Абулқосим Лоҳутӣ",
+      "books": [
+        {
+          "id": 201,
+          "title": "Ахтарони адаб",
+          "filename": "axtaroni_adab.pdf",
+          "description": "Маҷмӯаи шеърҳои инқилобӣ ва адабии Лоҳутӣ."
+        }
+      ]
     },
     {
       "id": 3,
-      "poet": "Абӯабдуллоҳи Рӯдакӣ",
-      "title": "Девони Рӯдакӣ",
-      "author": "Абӯабдуллоҳи Рӯдакӣ",
-      "category": "Классическая адабиёт",
-      "language": "tg",
-      "description": "Падари адабиёти тоҷик. Беҳтарин ғазалҳо, қасидаҳо ва рубоиҳои Рӯдакӣ.",
-      "parts": [
-        "abuabdullohi-rudaki-—-sherho.pdf",
-        "ashor_rudaki.pdf",
-        "bui_jui_muliyon.pdf",
-        "devoni_rudaki.pdf",
-        "osori-abuabdullohi-rudaki.pdf",
-        "pandho-az-abuabdullohi-rudaki.pdf"
-      ],
-      "total_parts": 6
+      "name": "Абӯабдуллоҳи Рӯдакӣ",
+      "books": [
+        {
+          "id": 301,
+          "title": "Девони Рӯдакӣ",
+          "filename": "devoni_rudaki.pdf",
+          "description": "Девони пурраи Падари адабиёти тоҷик."
+        },
+        {
+          "id": 302,
+          "title": "Осори Рӯдакӣ",
+          "filename": "osori-abuabdullohi-rudaki.pdf",
+          "description": "Маҷмӯаи осори Рӯдакӣ."
+        },
+        {
+          "id": 303,
+          "title": "Бӯи ҷӯи Мӯлиён",
+          "filename": "bui_jui_muliyon.pdf",
+          "description": "Шеърҳои машҳур ва дилангез."
+        },
+        {
+          "id": 304,
+          "title": "Ашъори Рӯдакӣ",
+          "filename": "ashor_rudaki.pdf",
+          "description": "Гулчин аз шеърҳои Рӯдакӣ."
+        },
+        {
+          "id": 305,
+          "title": "Пандҳо аз Рӯдакӣ",
+          "filename": "pandho-az-abuabdullohi-rudaki.pdf",
+          "description": "Пандҳо ва ҳикматҳои Рӯдакӣ."
+        },
+        {
+          "id": 306,
+          "title": "Шеърҳои Рӯдакӣ",
+          "filename": "abuabdullohi-rudaki-—-sherho.pdf",
+          "description": "Маҷмӯаи шеърҳо."
+        }
+      ]
     }
   ]
 }
